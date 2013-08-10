@@ -7,7 +7,7 @@
                 $image = $featured->images()->filterBy('featured', 'oui');
                 $fimage = $image->first();
                 if ($featured->hasImages() && $image !== "") {
-                        echo '<img src="'.$fimage->url().'" width="250px" />';
+                        echo '<img src="'.$fimage->url().'" />';
                 } ?>
                 <div>
                         <?php echo $featured->text() ?>
