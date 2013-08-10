@@ -7,7 +7,7 @@ Feel free to use/modify them.
 
 ## Tip
 
-Every folder contains a howto.md in order to help you.
+Every folder contains a README.md in order to help you.
 
 ## License
 
