@@ -4,10 +4,9 @@
                 <?php $featured = $pages->findbyUID("your page")->first() ?>
                 <h2><?php echo $featured->title() ?></h2>
                 <?php
-                $image = $featured->images()->filterBy('featured', 'oui');
-                $fimage = $image->first();
+                $image = $featured->images()->filterBy('featured', 'yes');
                 if ($featured->hasImages() && $image !== "") {
-                        echo '<img src="'.$fimage->url().'" />';
+                        echo '<img src="'.$image->first()->url().'" />';
                 } ?>
                 <div>
                         <?php echo $featured->text() ?>
