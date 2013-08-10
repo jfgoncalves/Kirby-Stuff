@@ -11,4 +11,4 @@ Every folder contains a howto.md in order to help you.
 
 ## License
 
-This work is under the MIT license. 
+This work is licensed under the MIT license. 
